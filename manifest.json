@@ -29,9 +29,9 @@
   ],
   "screenshots": [
     {
-      "src": "images/bg",
+      "src": "images/overlay",
       "sizes": "1280x1920",
-      "type": "webp"
+      "type": "png"
     },
     {
       "src": "images/pic01",

@@ -27,7 +27,7 @@ self.addEventListener('install', event => {
         './icons/logo_512x512.png',
         './icons/logo_144x144.png',
 
-        './images/bg.webp',
+        './images/overlay.png',
         './images/pic01.webp',
         './images/pic02.webp',
         './images/pic03.webp',
