@@ -4,6 +4,7 @@
   "start_url": "index.html",
   "lang": "pt-BR",
   "theme_color": "#212931",
+  "display_override": ["fullscreen", "minimal-ui"],
   "display": "standalone",
   "icons": [
     {
