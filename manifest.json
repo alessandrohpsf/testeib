@@ -13,30 +13,6 @@
       "purpose": "maskable"
     },
     {
-      "src": "icons/logo_228x185",
-      "sizes": "228x185",
-      "type": "png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/logo_48x48",
-      "sizes": "48x48",
-      "type": "png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/logo_72x72",
-      "sizes": "72x72",
-      "type": "png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/logo_96x96",
-      "sizes": "96x96",
-      "type": "png",
-      "purpose": "any"
-    },
-    {
       "src": "icons/logo_144x144",
       "sizes": "144x144",
       "type": "png",
@@ -44,7 +20,7 @@
     },
     {
       "src": "icons/logo_192x192",
-      "sizes": "192x192",
+      "sizes": "228x228",
       "type": "png",
       "purpose": "any"
     }
