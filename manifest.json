@@ -1,0 +1,135 @@
+{
+  "name": "invest'Braz",
+  "description": "portfolio de investimentos e assuntos relacionados ao mercado financeiro.",
+  "start_url": "index.html",
+  "lang": "pt-BR",
+  "theme_color": "#212931",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icons/logo_512x512",
+      "sizes": "512x512",
+      "type": "png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/logo_228x185",
+      "sizes": "228x185",
+      "type": "png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/logo_48x48",
+      "sizes": "48x48",
+      "type": "png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/logo_72x72",
+      "sizes": "72x72",
+      "type": "png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/logo_96x96",
+      "sizes": "96x96",
+      "type": "png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/logo_144x144",
+      "sizes": "144x144",
+      "type": "png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/logo_192x192",
+      "sizes": "192x192",
+      "type": "png",
+      "purpose": "any"
+    }
+
+  ],
+  "screenshots": [
+    {
+      "src": "images/bg",
+      "sizes": "1280x1920",
+      "type": "webp"
+    },
+    {
+      "src": "images/pic01",
+      "sizes": "768x523",
+      "type": "webp"
+    },
+    {
+      "src": "images/pic02",
+      "sizes": "768x523",
+      "type": "webp"
+    },
+    {
+      "src": "images/pic03",
+      "sizes": "768x523",
+      "type": "webp"
+    },
+    {
+      "src": "images/pic04",
+      "sizes": "768x523",
+      "type": "webp"
+    },
+    {
+      "src": "images/pic05",
+      "sizes": "768x523",
+      "type": "webp"
+    },
+    {
+      "src": "images/pic06",
+      "sizes": "768x523",
+      "type": "webp"
+    },
+    {
+      "src": "images/pic07",
+      "sizes": "768x523",
+      "type": "webp"
+    },
+    {
+      "src": "images/pic08",
+      "sizes": "768x523",
+      "type": "webp"
+    },
+    {
+      "src": "images/pic09",
+      "sizes": "768x523",
+      "type": "webp"
+    },
+    {
+      "src": "images/pic10",
+      "sizes": "768x523",
+      "type": "webp"
+    },
+    {
+      "src": "images/pic11",
+      "sizes": "768x523",
+      "type": "webp"
+    },
+    {
+      "src": "images/pic12",
+      "sizes": "768x523",
+      "type": "webp"
+    },
+    {
+      "src": "images/pic13",
+      "sizes": "768x523",
+      "type": "webp"
+    }
+  ],
+  "background_color": "#000000",
+  "dir": "auto",
+  "orientation": "portrait",
+  "categories": [
+    "business",
+    "education",
+    "finance"
+  ],
+  "short_name": "investbraz",
+  "id": "IB"
+}
