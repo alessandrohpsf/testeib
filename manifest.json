@@ -6,6 +6,7 @@
   "theme_color": "#212931",
   "display_override": ["fullscreen", "minimal-ui"],
   "display": "standalone",
+
   "icons": [
     {
       "src": "icons/logo_512x512",
@@ -28,11 +29,6 @@
 
   ],
   "screenshots": [
-    {
-      "src": "images/overlay",
-      "sizes": "1280x1920",
-      "type": "png"
-    },
     {
       "src": "images/pic01",
       "sizes": "768x523",
@@ -99,7 +95,7 @@
       "type": "webp"
     }
   ],
-  "background_color": "#000000",
+  "background_color": "#212931",
   "dir": "auto",
   "orientation": "portrait",
   "categories": [
