@@ -7,9 +7,11 @@
               href="icons/logo_144x144.png" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css/crud.css" />
 		<link rel="stylesheet" href="css/main.css" />
 		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
 		<link rel="manifest" href="manifest.json">
+
 	</head>
 	<body class="is-preload">
 
@@ -124,7 +126,7 @@
 
 								<!-- Table -->
 									
-									<h3>Tipos de investidores</h3>
+									<!-- <h3>Tipos de investidores</h3>
 									<div class="table-wrapper">
 										<table>
 											<thead>
@@ -218,12 +220,67 @@
 										<option value="trader3">Fernanda</option>
 									</select>
 								
-									<hr />
+									<hr /> -->
 
 								<!-- Form -->
 									<h2>Seje um futuro Trader</h2>
 
-									<form method="post" action="#">
+
+									<div class="container">
+										<div class="header">
+											<span>Cadastro de Traders</span>
+
+										  <button onclick="openModal()" id="new">Cadastre-se</i></button>
+										</div>
+									
+										<div class="divTable">
+										  <table>
+											<thead>
+											  <tr>
+												<th>Nome</th>
+												<th>Função</th>
+												<th>Segmento</th>
+												<th class="acao"></th>
+												<th class="acao"></th>
+											  </tr>
+											</thead>
+											<tbody>
+											</tbody>
+										  </table>
+										</div>
+									
+										<div class="modal-container">
+										  <div class="modal">
+											<form>
+											  <label for="m-nome">Nome</label>
+											  <input id="m-nome" type="text" required />
+									  
+											  <label for="m-funcao">Função</label>
+											  <input id="m-funcao" type="text" required />
+									  
+											  <label for="m-segmento">Segmento</label>
+											  <!-- <input id="m-segmento" type="text" required /> -->
+
+											  <select name="demo-category" id="m-segmento">
+												<option value="">Escolha</option>
+												<option value="Day trade">Day trade</option>
+												<option value="Scalping trade">Scalping trade</option>
+												<option value="Swing trade">Swing trade</option>
+												<option value="Position trade">Position trade</option>
+												<option value="Buy and hold trade">Buy and hold trade</option>
+											</select>
+
+											  <button id="btnSalvar">Salvar</button>
+											</form>
+										  </div>
+										</div>
+									
+									  </div>
+
+
+
+
+									<!-- <form method="post" action="#">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall">
 												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Nome" />
@@ -231,7 +288,7 @@
 											<div class="col-6 col-12-xsmall">
 												<input type="email" name="demo-email" id="demo-email" value="" placeholder="E-mail" />
 											</div>
-											<!-- Break -->
+											 
 											<div class="col-12">
 												<select name="demo-category" id="demo-category">
 													<option value="">- Categoria -</option>
@@ -241,10 +298,12 @@
 													<option value="1">Position trade</option>
 													<option value="1">Buy and hold trade</option>
 												</select>
+
+												
 												<p><h3>Público Alvo</h3></p>
 											</div>
 											
-											<!-- Break -->
+											 
 											<div class="col-4 col-12-small">
 												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
 												<label for="demo-priority-low">Conservador</label>
@@ -257,7 +316,7 @@
 												<input type="radio" id="demo-priority-high" name="demo-priority">
 												<label for="demo-priority-high">Arrojado</label>
 											</div>
-											<!-- Break -->
+											 
 											<div class="col-6 col-12-small">
 												<input type="checkbox" id="demo-copy" name="demo-copy">
 												<label for="demo-copy">Internacional</label>
@@ -266,11 +325,11 @@
 												<input type="checkbox" id="demo-human" name="demo-human" checked>
 												<label for="demo-human">Nacional</label>
 											</div>
-											<!-- Break -->
+											 
 											<div class="col-12">
 												<textarea name="demo-message" id="demo-message" placeholder="Escreva o que pensar" rows="6"></textarea>
 											</div>
-											<!-- Break -->
+											 
 											<div class="col-12">
 												<ul class="actions">
 													<li><input type="submit" value="Enviar" class="primary" /></li>
@@ -278,7 +337,7 @@
 												</ul>
 											</div>
 										</div>
-									</form>
+									</form> -->
 
 					
 
@@ -292,6 +351,8 @@
 			<script src="js/breakpoints.min.js"></script>
 			<script src="js/util.js"></script>
 			<script src="js/main.js"></script>
+			<script src="js/crud.js"></script>
+
 
 			<script>
 				let newWorker;
